@@ -1,7 +1,24 @@
+- [Week 0 — Billing and Architecture](#week-0-billing-and-architecture)
+   * [My AWS Journey with Andrew](#my-aws-journey-with-andrew)
+   * [Pre-Requisites  ](#pre-requisites)
+   * [Week-0 Live Session ](#week-0-live-session)
+   * [Tasks Completed in Week-0](#tasks-completed-in-week-0)
+      + [Install AWS CLI](#install-aws-cli)
+      + [Create a new User and Generate AWS Credentials](#create-a-new-user-and-generate-aws-credentials)
+      + [Set Env Vars](#set-env-vars)
+      + [Check that the AWS CLI is working and you are the expected user](#check-that-the-aws-cli-is-working-and-you-are-the-expected-user)
+   * [Recreate Conceptual Diagram ](#recreate-conceptual-diagram)
+   * [Conceptual Diagram](#conceptual-diagram)
+
+<!-- TOC end -->
+
+<!-- TOC --><a name="week-0-billing-and-architecture"></a>
 # Week 0 — Billing and Architecture
+<!-- TOC --><a name="my-aws-journey-with-andrew"></a>
 ## My AWS Journey with Andrew
 This journal consists of the tasks completed in week-0 of AWS Free Bootcamp 2023 organized by Andrew Brown and his Team. In this week, we started with setting up the accounts (aws, gitpod, gihub) that are required before the start of ‘Cruddur Project’. 
 
+<!-- TOC --><a name="pre-requisites"></a>
 ## Pre-Requisites  
 Before beginning with Week-0 we should have these following accounts : 
 - Personal AWS account. 
@@ -9,6 +26,7 @@ Before beginning with Week-0 we should have these following accounts :
 - Lucid Charts account. 
 - GitHub account. 
 
+<!-- TOC --><a name="week-0-live-session"></a>
 ## Week-0 Live Session 
 So, there was a Live Session conducted by the AWS Bootcamp organizer Andrew Brown with the guest lecturers – Shala Warner, Chris Williams and Margaret Veltierra. They are the experts of AWS cloud also known as Cloud Heroes. It was really an amazing Live session where all the lecturers were interacting with each other, was kind of ‘real-time feel’ session.  
 ***What did we Learn in this Live Session ?***
@@ -21,6 +39,7 @@ This was mainly focused on ***Billing and Architecture***
 - C4 models. 
 - How to create diagrams in Lucid Charts. 
 - Hands on example for My Diagram. 
+<!-- TOC --><a name="tasks-completed-in-week-0"></a>
 ## Tasks Completed in Week-0
 **1. Created IAM User, Role and MFA**
 ![IAM](/_docs/assets/002.jpg)
@@ -49,6 +68,7 @@ When it displays the error message in that only you can find how to to troublesh
 
 **2.Installeed AWS CLI in Gtpod.**
 
+<!-- TOC --><a name="install-aws-cli"></a>
 ### Install AWS CLI
 
 - We are going to install the AWS CLI when our Gitpod enviroment lanuches.
@@ -81,6 +101,7 @@ tasks:
 
 We'll also run these commands indivually to perform the install manually
 
+<!-- TOC --><a name="create-a-new-user-and-generate-aws-credentials"></a>
 ### Create a new User and Generate AWS Credentials
 
 - Go to (IAM Users Console](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users) andrew create a new user
@@ -91,6 +112,7 @@ We'll also run these commands indivually to perform the install manually
 - Choose AWS CLI Access
 - Download the CSV with the credentials
 
+<!-- TOC --><a name="set-env-vars"></a>
 ### Set Env Vars
 
 We will set these credentials for the current bash terminal
@@ -110,6 +132,7 @@ gp env AWS_DEFAULT_REGION=us-east-1
 
 ![](/_docs/assets/013.jpg)
 
+<!-- TOC --><a name="check-that-the-aws-cli-is-working-and-you-are-the-expected-user"></a>
 ### Check that the AWS CLI is working and you are the expected user
 
 ```sh
@@ -124,4 +147,11 @@ You should see something like this:
     "Arn": "arn:aws:iam::655602346534:user/alexiscloud"
 }
 ```
+<!-- TOC --><a name="recreate-conceptual-diagram"></a>
+## Recreate Conceptual Diagram 
+![Logical Architectual Diagram](/_docs/assets/aws%20diagram-AWS%20Bootcamp%20Logical%20Diagram.svg)
 
+
+<!-- TOC --><a name="conceptual-diagram"></a>
+##  Conceptual Diagram
+![ Conceptual Diagram](/_docs/assets/aws%20diagram-Cruddur%20-%20Conceptual%20Diagram.drawio.svg)
