@@ -53,7 +53,7 @@ So, it is very easy to create a IAM User and set MFA (Multi Factor Authenticatio
 - Fill the required details and **Scan QR code** from the authentication app in your mobile. (Here you **need to install authentication application in your mobile** to connect it with your IAM User).
 - **Enter two MFA Codes** when asked and your MFA is set.
 
-*** 1.Creating IAM Role***
+## Creating IAM Role
 - From IAM click on **Roles -> Create role**.
 - Choose **Entity Type** as per your project, I personally chose **AWS Services for EC2 Use case.**
 - Added permission policy as **Security Audit**.
